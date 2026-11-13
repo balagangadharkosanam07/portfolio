@@ -1,0 +1,77 @@
+export const skillCategories = [
+  {
+    id: 'programming-languages',
+    title: 'Programming Languages',
+    badge: 'Core Foundations',
+    priority: 'high',
+    skills: [
+      { name: 'Java', level: 'Intermediate', icon: 'FaJava' },
+      { name: 'Python', level: 'Intermediate', icon: 'FaPython' },
+      { name: 'JavaScript', level: 'Intermediate', icon: 'FaJs' },
+    ],
+  },
+  {
+    id: 'frontend-development',
+    title: 'Frontend Development',
+    badge: 'Full-Stack Focus',
+    priority: 'high',
+    skills: [
+      { name: 'HTML5', level: 'Intermediate', icon: 'FaHtml5' },
+      { name: 'CSS3', level: 'Intermediate', icon: 'FaCss3Alt' },
+      { name: 'JavaScript DOM', level: 'Intermediate', icon: 'FaJs' },
+      { name: 'React.js', level: 'Learning', icon: 'FaReact' },
+      { name: 'Vite', level: 'Beginner', icon: 'SiVite' },
+      { name: 'Responsive Web Design', level: 'Beginner', icon: 'FaLaptopCode' },
+    ],
+  },
+  {
+    id: 'backend-development',
+    title: 'Backend Development',
+    badge: 'Full-Stack Focus',
+    priority: 'high',
+    skills: [
+      { name: 'Node.js', level: 'Intermediate', icon: 'FaNodeJs' },
+      { name: 'Express.js', level: 'Intermediate', icon: 'SiExpress' },
+      { name: 'Flask', level: 'Learning', icon: 'SiFlask' },
+      { name: 'REST API Development', level: 'Intermediate', icon: 'FaServer' },
+      { name: 'JWT Authentication', level: 'Beginner', icon: 'SiJsonwebtokens' },
+      { name: 'MERN Stack', level: 'Learning', icon: 'FaLayerGroup' },
+    ],
+  },
+  {
+    id: 'databases',
+    title: 'Databases',
+    badge: 'Data Management',
+    priority: 'medium',
+    skills: [
+      { name: 'PostgreSQL', level: 'Beginner', icon: 'SiPostgresql' },
+      { name: 'MongoDB', level: 'Learning', icon: 'SiMongodb' },
+    ],
+  },
+  {
+    id: 'cloud-and-deployment',
+    title: 'Cloud & Deployment',
+    badge: 'Supporting Strength',
+    priority: 'medium',
+    skills: [
+      { name: 'AWS', level: 'Beginner', icon: 'FaAws' },
+      { name: 'Amazon EC2', level: 'Beginner', icon: 'FaCloud' },
+      { name: 'Amazon S3', level: 'Intermediate', icon: 'FaCloudDownloadAlt' },
+      { name: 'Amazon RDS', level: 'Beginner', icon: 'FaDatabase' },
+      { name: 'Vercel', level: 'Beginner', icon: 'SiVercel' },
+      { name: 'GitHub', level: 'Intermediate', icon: 'FaGithub' },
+    ],
+  },
+  {
+    id: 'cybersecurity',
+    title: 'Cybersecurity',
+    badge: 'Specialized Interest',
+    priority: 'medium',
+    skills: [
+      { name: 'Network Security', level: 'Beginner', icon: 'FaNetworkWired' },
+      { name: 'Linux Security', level: 'Beginner', icon: 'SiLinux' },
+      { name: 'Web Application Security', level: 'Beginner', icon: 'FaShieldAlt' },
+      { name: 'Security Log Analysis', level: 'Beginner', icon: 'FaFileCode' },
+    ],
+  },
+];
